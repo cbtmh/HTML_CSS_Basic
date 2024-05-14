@@ -1,0 +1,360 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.take-tour {}
+
+.take-tour-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.app-info {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    left: 3%;
+    top: 50%;
+    transform: translate(-3%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.app-info-padding {
+    padding: 14px 20px !important;
+}
+
+.info-title {
+    color: white;
+    font-size: 24px;
+    padding: 2px 64px;
+    text-align: center;
+}
+
+.info-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* Add a text color */
+    padding: 14px 28px;
+    /* Add some padding */
+    cursor: pointer;
+    /* Add a pointer cursor on mouse-over */
+    width: 100%;
+    border: 2px;
+    border-radius: 4px;
+}
+
+.info1 {
+    background-color: #46a049;
+    color: white;
+}
+
+.info2 {
+    background-color: black;
+}
+
+.info1:hover {
+    background-color: #04AA6D;
+}
+
+.info2:hover {
+    background-color: lightgray;
+}
+
+.position {
+    text-align: center;
+}
+
+.fa-brands {
+    padding: 4px;
+}
+
+.position1 {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.the-app-information {
+    padding: 0px 10px;
+    width: 60%;
+}
+
+.the-app-title {
+    font-size: 45px;
+}
+
+.the-app-reason {
+    font-size: 35px;
+    color: #46a04a;
+}
+
+.the-app-img {
+    float: right!important;
+    width: 300px;
+    height: auto;
+    padding: 0px 20px;
+}
+
+.button1 {
+    border: none;
+    /* Remove borders */
+    color: black;
+    /* Add a text color */
+    padding: 14px 28px;
+    /* Add some padding */
+    cursor: pointer;
+    /* Add a pointer cursor on mouse-over */
+    width: 30%;
+}
+
+.info3 {
+    background-color: lightgray;
+}
+
+.info3:hover {
+    background-color: whitesmoke;
+}
+
+.the-app,
+.clarity {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.clarity-text {
+    float: right;
+    width: 65%;
+}
+
+.clarity-title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.clarity-who {
+    font-size: 20px;
+    font-weight: 300;
+    color: crimson;
+}
+
+.lgray-background {
+    background-color: lightgray;
+}
+
+.the-app .the-app-information .fa-android {
+    color: #46a049;
+}
+
+.the-app .the-app-information .fa-windows {
+    color: dodgerblue;
+}
+
+.the-app-essay {
+    font-size: 18px;
+}
+
+.the-app .the-app-information .the-app-essay .span {
+    font-size: 24px;
+}
+
+.the-app .the-app-information .fa-solid {
+    padding: 4px;
+}
+
+.gray-background {
+    background-color: gray;
+}
+
+.features {
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.features-fontsize {
+    font-size: 40px;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+.item-position {
+    text-align: center;
+}
+
+.item-position .fa-solid {
+    font-size: 32px;
+}
+
+.fa-bolt-lightning {
+    color: orange;
+}
+
+.fa-heart {
+    color: tomato;
+}
+
+.fa-camera {
+    color: goldenrod;
+}
+
+.fa-battery-full {
+    color: greenyellow;
+}
+
+.fa-cloud {
+    color: dodgerblue;
+}
+
+.fa-earth-americas {
+    color: yellow;
+}
+
+.fa-hard-drive {
+    color: aqua;
+}
+
+.fa-shield {
+    color: orangered;
+}
+
+.fa-wifi {
+    color: lightgray;
+}
+
+.fa-image {
+    color: palevioletred;
+}
+
+.Pricing {
+    text-align: center;
+    padding: 40px;
+    color: black;
+}
+
+.pricing-header {
+    margin: 0px;
+    padding: 20px;
+}
+
+.pricing-title {
+    font-size: 50px;
+    margin: 20px 0px 10px 0px;
+}
+
+.pricing-text {
+    font-size: 15px;
+    margin: 10px 0px 25px 0px;
+}
+
+.plan-list {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.basic {
+    background-color: #616161;
+    color: white;
+    padding: 25px;
+}
+
+.premiun {
+    background-color: red;
+    color: white;
+    padding: 25px;
+}
+
+.list {
+    padding: 15px;
+    border: 0.5px solid #dddddd;
+}
+
+.first {
+    font-weight: 300px;
+}
+
+.money {
+    font-size: 20px;
+    color: #828282;
+}
+
+.btn {
+    background-color: #f1f1f1;
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+
+.btn-download {
+    background-color: #000000;
+    padding: 13px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.plan-item {
+    border-bottom: 0.5px solid;
+    padding: 50px;
+}
+
+.pricing-Basic {
+    width: 80%;
+    margin: 0 5px;
+}
+
+.pricing-Premiun {
+    width: 80%;
+    margin: 0 5px;
+}
+
+.End {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px;
+}
+
+.End-list {
+    font-size: 18px;
+}
+
+.End-icon {
+    margin-left: 5px;
+}
+
+.End-text {
+    font-size: 15px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}

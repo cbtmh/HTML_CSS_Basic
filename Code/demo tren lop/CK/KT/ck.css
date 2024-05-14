@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.green {
+    color: rgb(101, 185, 33);
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: rgb(187, 182, 182);
+}
+
+.section1 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+
+.section1 a {
+    text-align: center;
+    color: gray;
+    padding: 10px 14px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sec1-left {
+    width: 30%;
+    padding-left: 20px;
+}
+
+.sec1-right {
+    width: 55%;
+    float: right;
+    padding-right: 20px;
+}
+
+.section1 a .sec1-title {
+    font-size: 30px;
+}
+
+.section1 span {
+    color: rgb(101, 185, 33);
+    font-weight: bold;
+}
+
+a.sec1-active {
+    background-color: rgb(102, 189, 32);
+    color: rgba(238, 224, 224, 0.911);
+}
+
+.section2 {
+    padding-top: 10px;
+}
+
+.sec2-img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 5px solid rgb(102, 189, 32);
+}
+
+.sec2-title {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec2-title-1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(101, 190, 29);
+    padding: 0px 20px;
+}
+
+.sec2-title-2 {
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.section3 {
+    padding: 20px;
+    background-color: rgba(12, 7, 7, 0.842)
+}
+
+.sec3-title {
+    text-align: center;
+}
+
+.sec3-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+}
+
+.sec3-info-value {
+    padding: 20px;
+}
+
+.sec3-info-value-font {
+    font-size: 24px;
+}
+
+.section3 .fa-solid {
+    color: rgb(101, 185, 33);
+    padding: 5px;
+}
+
+.section4 {
+    background-color: white;
+    padding: 20px;
+}
+
+.sec4-title {
+    text-align: center;
+}
+
+.sec4-info {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+}
+
+.sec4-info-value {
+    padding: 20px;
+}
+
+.section4 .fa-solid,
+.fa-brands {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(101, 185, 33);
+    color: white;
+}
+
+.sec4-font {
+    font-size: 20px;
+}

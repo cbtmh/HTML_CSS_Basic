@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    background-color: white;
+    margin: 0;
+}
+
+.section1 {}
+
+.section1-img {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 7%;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    padding: auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+.header-menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-menu a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.header-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.header-menu-position {}
+
+.header-menu-position-right {
+    float: right;
+}
+
+.header-menu-position-left {
+    float: left;
+    color: #f2f2f2;
+}
+
+.menu-title {
+    position: absolute;
+    top: 35%;
+    color: whitesmoke;
+    font-size: 30px;
+    width: 100%;
+}
+
+.info-title {
+    position: absolute;
+    background: white;
+    width: 100%;
+    top: 60%;
+    height: 300px;
+    vertical-align: center;
+}
+
+.section2 {
+    background: white;
+    padding: 20px;
+}
+
+.sec2-title {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec2-info {
+    padding: 10px;
+}
+
+.info-row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.icon {
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.section2 img {
+    border-radius: 50%;
+}
+
+.icon-img {
+    float: left;
+}
+
+.icon-info {
+    float: right;
+    padding: 4px;
+}
+
+.icon-font {
+    font-size: 20px;
+}
+
+.icon-title {
+    padding: 5px;
+}
+
+.icon-price {
+    float: right;
+}

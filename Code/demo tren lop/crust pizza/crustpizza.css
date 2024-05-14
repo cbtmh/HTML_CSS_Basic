@@ -1,0 +1,50 @@
+h1, p.open-time{
+    text-align: center;
+}
+
+.food-header{
+    display:flex;
+    align-items: center;
+}
+
+.food-header:hover{
+    cursor: pointer;
+}
+
+.food-title{
+    font-size:24px;
+    margin-left: 20px;
+    display: inline;
+}
+
+.food-title::first-letter{
+    font-size: 42px;
+}
+
+.price{
+    color: goldenrod;
+}
+
+.price:hover{
+    color: yellow;
+}
+.food-description{
+    color:green;
+}
+
+.food-img{
+    width:50px;
+    height:50px;
+}
+
+/* Pseudo-Class */
+/* Style cho trang thai 1 element */
+a:active{
+    color: gray;
+}
+
+/* Pseudo-Element */
+/* Style cho 1 phan element */
+p::first-line{
+    color: blue;
+}

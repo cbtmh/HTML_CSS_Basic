@@ -1,0 +1,372 @@
+body {
+    background-color: black;
+    margin: 0px;
+    font-family: "Nunito";
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+
+/* Start section 1 */
+
+.take-tour {
+    text-align: center;
+    color: white;
+}
+
+.take-tour-img {
+    position: relative;
+    width: 100%;
+}
+
+.take-tour-info1 {
+    position: absolute;
+    background-color: rgb(87, 85, 85);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%);
+}
+
+.take-tour-title,
+.take-tour-text {
+    text-align: center;
+    font-weight: 400;
+    margin: 20px;
+}
+
+hr {
+    width: 90%;
+}
+
+.button-info1 {
+    color: white;
+    background-color: rgb(32, 212, 32);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+}
+
+.button-info2 {
+    position: absolute;
+    background-color: rgb(20, 20, 20);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 7%;
+    height: 40px;
+    color: white;
+    top: 50%;
+    right: 10%;
+    transform: translate(-10%, -50%);
+    cursor: pointer;
+}
+
+
+/* End section 1 */
+
+
+/* Start section 2 */
+
+.the-app {
+    display: flex;
+    padding: 20px 10px;
+}
+
+.the-app-text {
+    padding: 0px 10px 0px 10px;
+}
+
+.the-app-text .the-app-text1 {
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+.the-app-text .the-app-text2 {
+    font-size: 35px;
+    color: rgb(0, 163, 0);
+    margin: 20px 0px;
+}
+
+.the-app-text .the-app-size {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.the-app-text .the-app-size1 {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.the-app-text .the-app-link {
+    background-color: rgb(233, 233, 233);
+    background-repeat: no-repeat;
+    border: none;
+    width: 30%;
+    height: 40px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ml-5 {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.align-item-content {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.the-app-download {
+    margin-bottom: 20px;
+}
+
+#android1 {
+    color: rgb(0, 163, 0);
+}
+
+#apple1 {
+    color: black;
+}
+
+#windows1 {
+    color: rgb(70, 174, 223);
+}
+
+.the-app-img {
+    width: 250px;
+    margin: 20px 0 20px 0;
+}
+
+.the-app .the-app-text {
+    width: 70%;
+}
+
+
+/* End section 2 */
+
+
+/* Start clarity */
+
+.Clarity {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+}
+
+.clarity-img {
+    width: 280px;
+    height: auto;
+    margin: 45px 10px;
+    border-radius: 10px;
+}
+
+.clarity-text1 {
+    font-size: 50px;
+    margin: 0px 10px 15px 0px;
+    padding: 65px 10px 0px 100px;
+}
+
+.clarity-text2 {
+    font-size: 35px;
+    color: red;
+    margin: 0px 10px 15px 0px;
+    padding: 0px 10px 0px 100px;
+}
+
+.clarity-size {
+    font-size: 13px;
+    margin: 0px 10px 15px 0px;
+    padding: 0px 5px 5px 100px;
+}
+
+.clarity-size1 {
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 0px 10px 10px 0px;
+}
+
+.clarity .clarity-image {
+    width: 30%;
+}
+
+.clarity .clarity-text {
+    width: 70%;
+}
+
+
+/* End clarity */
+
+
+/* Start features */
+
+.Features {
+    background-color: #616161;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.features-header {
+    margin: 0px;
+    padding: 25px;
+}
+
+.features-title {
+    font-size: 50px;
+    margin: 20px 0px 10px 0px;
+}
+
+.features-text {
+    font-size: 13px;
+    margin: 10px 0px 20px 0px;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+.features-icon {
+    padding: 35px;
+    font-size: 45px;
+}
+
+.features-icon p {
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+/* End features */
+
+.Pricing {
+    text-align: center;
+    padding: 20px 10px;
+    color: #000000;
+}
+
+.pricing-header {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pricing-title {
+    font-size: 50px;
+    margin: 20px 0px 10px 0px;
+}
+
+.pricing-text {
+    font-size: 15px;
+    margin: 10px 0px 25px 0px;
+}
+
+.plan-list {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.basic {
+    background-color: #616161;
+    color: white;
+    padding: 25px;
+}
+
+.premiun {
+    background-color: red;
+    color: white;
+    padding: 25px;
+}
+
+.list {
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+.first {
+    font-weight: 300px;
+}
+
+.money {
+    font-size: 30px;
+    color: #828282;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+
+.btn {
+    background-color: #f1f1f1;
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+
+.btn-download {
+    background-color: #000000;
+    padding: 13px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.plan-item {
+    border-bottom: 0.5px solid;
+    padding: 50px;
+}
+
+.pricing-Basic {
+    width: 80%;
+    margin: 0 5px;
+}
+
+.pricing-Premiun {
+    width: 80%;
+    margin: 0 5px;
+}
+
+.End {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.End-list {
+    font-size: 18px;
+}
+
+.End-icon {
+    margin-left: 5px;
+}
+
+.End-text {
+    font-size: 15px;
+}

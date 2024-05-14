@@ -1,0 +1,33 @@
+body{
+    margin:0;
+}
+
+.container{
+    position: relative;
+}
+
+.take-tour{
+    color:white;
+}
+
+.take-tour-img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+   
+    background-repeat: no-repeat;
+}
+
+.take-tour-button{
+    position:absolute;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

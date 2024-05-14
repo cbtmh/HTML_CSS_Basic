@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    background-color:lightgray;
+    font-family: Redressed;
+}
+
+.menu-header{
+    text-align:center;
+    color:white;
+    position: relative;
+}
+
+.menu-img{
+    background-image:url('imgs/banner.png');
+    width:100%;
+    height:380px;
+    
+}
+
+.menu-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.menu-time{
+    text-decoration: underline;
+    font-size:16px;
+}
+
+.menu-name{
+    font-size:40px;
+}
+
+.food-list{
+    width:60%;
+    margin: auto;
+
+}
+
+.food-item{
+    padding:8px 5px;
+}
+
+.food-item:first-child {
+    padding-top: 16px;
+  }
+
+.food-header{
+    display:flex;
+    font-size:30px;
+}
+
+.food-title {
+    margin-left: 5px;
+  }
+  
+  .food-title span {
+    color:chocolate;
+  }
+  

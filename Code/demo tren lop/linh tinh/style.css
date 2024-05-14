@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.essay2 {
+    width: 50%;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img1 {
+    width: 50%;
+    height: auto;
+}
+
+.img2 {
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.contact {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact li {
+    padding: 8px 10px;
+}
+
+.contact1 {
+    background: black;
+    color: white;
+}
+
+.contact2 {
+    background: gray;
+    color: white;
+}
+
+.contact3 {
+    background: lightgray;
+    color: white;
+}
+
+.contact .contact1 .fa-solid {
+    padding: 4px;
+}
+
+.contact3 .fa-brands {
+    padding: 4px;
+}

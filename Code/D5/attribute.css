@@ -1,0 +1,12 @@
+a[target="_blank"]{
+    background-color:yellow ;
+}
+
+[title~=Pizza]{
+    border: 5px solid red ;
+}
+
+[class|=number]{
+    background: yellow;
+}
+

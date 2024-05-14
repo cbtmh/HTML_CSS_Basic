@@ -1,0 +1,14 @@
+#p1{
+    text-align: center;
+    color:aqua;
+}
+
+.p2{
+    text-align: center;
+    color:red;
+}
+
+a[target]{
+    background-color:antiquewhite;
+    color:black;
+}
